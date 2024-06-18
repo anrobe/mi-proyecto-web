@@ -1,6 +1,6 @@
         document.getElementById('btn-repo').addEventListener('click', function() {
 
-            fetch('https://api.github.com/repos/usuario/mi-proyecto-web')
+            fetch('https://api.github.com/repos/anrobe/mi-proyecto-web')
 
                 .then(response => response.json())
 
